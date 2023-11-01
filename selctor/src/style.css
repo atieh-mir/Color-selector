@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.red-box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.blue-box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+.green-box{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+.yellow-box{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+.black-box{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+.orange-box{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
