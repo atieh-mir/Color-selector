@@ -2,35 +2,69 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
 }
+.container{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    
+}
+.container-select{
+    text-align: center;
+}
+.tag-h1{
+    margin: 10px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.selctor-box{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    
+}
+
 
 .red-box{
     width: 200px;
     height: 200px;
     background-color: red;
+    transition: 1.5s;
+    
 }
 .blue-box{
     width: 200px;
     height: 200px;
     background-color: blue;
+    transition: 1.5s;
 }
 .green-box{
     width: 200px;
     height: 200px;
     background-color: green;
+    transition: 1.5s;
 }
 .yellow-box{
     width: 200px;
     height: 200px;
     background-color: yellow;
+    transition: 1.5s;
 }
 .black-box{
     width: 200px;
     height: 200px;
     background-color: black;
+    transition: 1.5s;
 }
 .orange-box{
     width: 200px;
     height: 200px;
     background-color: orange;
+     transition: 1.5s;
 }
